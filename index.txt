@@ -1,1 +1,6 @@
 my first making repository and coneccting vscode
+
+2021/09/29
+Goal
+・github/repository method
+・docker method
