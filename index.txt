@@ -1,8 +1,28 @@
-my first making repository and coneccting vscode
+【進捗報告】
 
-2021/09/29
-Goal
-・github/repository method
-・docker method
+★ノートpc
+ubuntu まずWiFiが繋がらない
+centOSOS6→7に変更必要、エラーで×
 
+★vscodeとgithub接続
+→一時接続不可→gitlabに接続
+→現在はgithub接続可
 
+★docker
+→コンテナ内にubuntu環境構築
+→pc再起動後hyper-vエラー
+(Windowsは基本hyper-vらしい)
+→wslで接続
+→可
+
+★.ssh繋がらない
+→key名変えたら直った？
+　github_id_rsa.pub⇒id_rsa.pub
+
+★dokcer起動後
+→CPU4、論理8ではメモリとCPUの限界値でkillされる
+→メモリ不足？
+→ CPU6、論理12で動作確認できたが、タスクキル寸前
+→動作確認できたが、作成されたデータがなぜかコンテナ内に格納されて、確認できない
+
+コンテナとgit接続、github上に.pngpushしてローカル上にpullする
